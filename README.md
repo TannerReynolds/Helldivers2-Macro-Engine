@@ -14,7 +14,7 @@ This program contains macros for various stratagems to use. All macros are conta
     * *Alternatively, you can choose to build the exe from the source code yourself.*
 * Once downloaded, set the "Application" to the "macro_engine.exe" you just downloaded.
 * Check the box at the bottom that says "Run in background" (required to work in-game)
-* And finally, type in the stratagem name in the "arguments" section, preceeded by "--"
+* And finally, type in the stratagem name in the "arguments" section
 
 ## Current List Of Supported Stratagems
 #### MUST BE TYPED IN ARGUEMENTS BOX EXACTLY LIKE SHOWN BELOW
