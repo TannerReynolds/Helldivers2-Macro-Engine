@@ -1,5 +1,7 @@
 # Helldivers 2 Stratagem Macro Engine For Streamdeck
 
+[![Join Our Discord!](https://img.shields.io/badge/Join%20Our%20Discord!-5865F2?style=flat&logo=discord&logoColor=white&link=https://discord.gg/FWGKzpaszP)](https://discord.gg/FWGKzpaszP)
+
 This program contains macros for various stratagems to use. All macros are contained in the macro_engine.exe program, and you can specify which macro is the one that runs by adding the name of the stratagem as an argument when launching the program. 
 
 ![streamdeck](https://cdn.tokyo.jp/4VMo5)
