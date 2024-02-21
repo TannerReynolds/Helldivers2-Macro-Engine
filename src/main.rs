@@ -15,6 +15,7 @@ fn main() {
 
     let command = match args[1].as_str() {
         "test" => "test",
+        "reinforce" => "wsdaw",
         "machine_gun_sentry" => "swddw",
         "gatling_sentry" => "swda",
         "mortar_sentry" => "swdds",
