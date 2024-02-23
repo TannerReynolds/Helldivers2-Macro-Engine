@@ -16,10 +16,23 @@ This program contains macros for various stratagems to use. All macros are conta
 * Check the box at the bottom that says "Run in background" (required to work in-game)
 * And finally, type in the stratagem name in the "arguments" section
 
+### Additional Options
+* Arrow Key Support
+    * If you would like to use arrow keys, just put "arrows" **after** the first argument. Example: `hellbomb arrows`
+* No Control/Holding down the key for you
+    * If you would like to press or hold the strategem menu key down yourself, use `no_ctrl` **after** the first argument. You can use this alongside `arrows` as well. Example 1: `hellbomb no_ctrl`, Example 2: `hellbomb arrows no_ctrl`
+
+*The recommended setup is to change your bind for bringing up the strategem menu, so that you only need to press it, rather than hold it. Then, you want to use the `no_ctrl` option, and press the button yourself before using a macro. I have found this to be the most reliable method of getting macros working.*
+
+*Keep in mind: This method is not 100%, the failure rate is actually pretty high, regardless of what the key press timings are. I am not sure why.*
+
+*Your anti virus might flag this program, this is because the author (me) is unknown, and because this program sends keyboard inputs on your behalf.*
+
+**Join our Discord server for the images you can use for your own Streamdeck!**
+
 ## Current List Of Supported Stratagems
 #### MUST BE TYPED IN ARGUEMENTS BOX EXACTLY LIKE SHOWN BELOW
 ```
-test
 machine_gun_sentry
 gatling_sentry
 mortar_sentry
@@ -70,4 +83,5 @@ spear
 sos_beacon
 resupply
 hellbomb
+reinforce
 ```

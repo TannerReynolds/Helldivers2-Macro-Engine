@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 enigo = "0.1.3"
+rand = "0.8.5"
