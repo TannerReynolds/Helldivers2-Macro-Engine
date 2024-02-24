@@ -48,7 +48,7 @@ fn main() {
         "eagle_110mm_rocket_pods" => "wdwa",
         "eagle_500kg_bomb" => "wdsss",
         "orbital_gatling_barrage" => "dsaww",
-        "orbital_airburst_strike" => "dd_d",
+        "orbital_airburst_strike" => "ddd",
         "orbital_120mm_he_barrage" => "dsads",
         "orbital_380mm_he_barrage" => "dswwass",
         "orbital_walking_barrage" => "ddsads",
