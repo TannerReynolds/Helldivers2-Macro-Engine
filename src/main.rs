@@ -61,7 +61,7 @@ fn main() {
         "recoiled_rifle" => "sadda",
         "flamethrower" => "sawsw",
         "autocannon" => "saswwd",
-        "railgun" => "sdaswad",
+        "railgun" => "sdswad",
         "spear" => "sswss",
         "sos_beacon" => "wsaw",
         "resupply" => "sswd",
