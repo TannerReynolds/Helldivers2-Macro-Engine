@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 extern crate enigo;
 
 use enigo::*;
