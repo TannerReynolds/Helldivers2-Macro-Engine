@@ -40,6 +40,7 @@ fn main() {
         "hmg_emplacement" => "swadda",
         "shield_generation_relay" => "swasdd",
         "tesla_tower" => "swdwad",
+        "eagle_rearm" => "wwawd",
         "eagle_strafing_run" => "wdd",
         "eagle_airstrike" => "wdsd",
         "eagle_cluster_bomb" => "wdssd",
