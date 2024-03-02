@@ -14,7 +14,9 @@ fn main() {
         return;
     }
 
+	let valid_custom_chars = vec!['w', 'a', 's', 'd'];
     let mut custom = String::from("");
+
     let command = match args[1].as_str() {
         "test" => "test",
         "machine_gun_sentry" => "swddw",
@@ -74,6 +76,11 @@ fn main() {
         "hellbomb" => "swaswdsw",
         s if s.starts_with("+") => {
             for char in s.chars().skip(1) {
+				if !valid_custom_chars.contains(&char) {
+					println!("Invalid custom character: {}", char);
+					return;
+				}
+			
                 custom.push(char);
             }
             custom.as_str()
