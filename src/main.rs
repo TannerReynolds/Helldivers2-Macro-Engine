@@ -14,6 +14,7 @@ fn main() {
         return;
     }
 
+    let mut custom = String::from("");
     let command = match args[1].as_str() {
         "test" => "test",
         "machine_gun_sentry" => "swddw",
@@ -63,10 +64,19 @@ fn main() {
         "autocannon" => "saswwd",
         "railgun" => "sdswad",
         "spear" => "sswss",
+        "seaf_artillery" => "dwws",
+        "prospecting_drill" => "ssadss",
+        "super_earth_flag" => "swsw",
         "sos_beacon" => "wsaw",
         "resupply" => "sswd",
         "reinforce" => "wsdaw",
         "hellbomb" => "swaswdsw",
+        s if s.starts_with("+") => {
+            for char in s.chars().skip(1) {
+                custom.push(char);
+            }
+            custom.as_str()
+        },
         _ => {
             println!("Unknown argument: {}", args[1]);
             return;
