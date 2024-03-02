@@ -14,6 +14,9 @@ fn main() {
         return;
     }
 
+	let valid_custom_chars = vec!['w', 'a', 's', 'd'];
+    let mut custom = String::from("");
+
     let command = match args[1].as_str() {
         "test" => "test",
         "machine_gun_sentry" => "swddw",
@@ -39,6 +42,7 @@ fn main() {
         "hmg_emplacement" => "swadda",
         "shield_generation_relay" => "swasdd",
         "tesla_tower" => "swdwad",
+        "eagle_rearm" => "wwawd",
         "eagle_strafing_run" => "wdd",
         "eagle_airstrike" => "wdsd",
         "eagle_cluster_bomb" => "wdssd",
@@ -63,10 +67,24 @@ fn main() {
         "autocannon" => "saswwd",
         "railgun" => "sdswad",
         "spear" => "sswss",
+        "seaf_artillery" => "dwws",
+        "prospecting_drill" => "ssadss",
+        "super_earth_flag" => "swsw",
         "sos_beacon" => "wsaw",
         "resupply" => "sswd",
         "reinforce" => "wsdaw",
         "hellbomb" => "swaswdsw",
+        s if s.starts_with("+") => {
+            for char in s.chars().skip(1) {
+				if !valid_custom_chars.contains(&char) {
+					println!("Invalid custom character: {}", char);
+					return;
+				}
+			
+                custom.push(char);
+            }
+            custom.as_str()
+        },
         _ => {
             println!("Unknown argument: {}", args[1]);
             return;
