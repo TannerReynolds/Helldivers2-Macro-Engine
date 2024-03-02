@@ -80,8 +80,14 @@ flamethrower
 autocannon
 railgun
 spear
+seaf_artillery
+prospecting_drill
+super_earth_flag
 sos_beacon
 resupply
 hellbomb
 reinforce
 ```
+
+## Custom commands
+In place of a named command, you can type `+` followed by any combination of `wasd`. For example, `+swaswdsw` would call the Hellbomb the same as `hellbomb` would. Use this in case new stratagems get added.
