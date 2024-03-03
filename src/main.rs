@@ -113,9 +113,9 @@ fn run_macro(command: &str, press:bool,delay:u64,arrows:bool) {
     else{}
 
     for c in command.chars() {
-        let key = Key::Layout(c);
+        let mut key = Key::Layout(c);
         if arrows == true{ //if arrows enabled will pass wasd key to function to convert to arrow
-            parse_key(c);
+            key = parse_key(c);
         }
         enigo.key_down(key);
         sleep(Duration::from_millis(delay));
