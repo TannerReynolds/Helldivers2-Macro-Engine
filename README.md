@@ -33,55 +33,67 @@ This program contains macros for various stratagems to use. All macros are conta
 ## Current List Of Supported Stratagems
 #### MUST BE TYPED IN ARGUEMENTS BOX EXACTLY LIKE SHOWN BELOW
 ```
-machine_gun_sentry
-gatling_sentry
-mortar_sentry
-guard_dog
-autocannon_sentry
-rocket_sentry
-ems_mortar_sentry
-anti-personnel_minefield
-supply_pack
-grenade_launcher
-laser_cannon
-incendiary_mines
-guard_dog_rover
-ballistic_shield_backpack
-arc_thrower
-shield_generator_pack
-orbital_precision_strike
-orbital_gas_strike
-orbital_ems_strike
-orbital_smoke_strike
-hmg_emplacement
-shield_generation_relay
-tesla_tower
-eagle_strafing_run
-eagle_airstrike
-eagle_cluster_bomb
-eagle_napalm_airstrike
-jump_pack
-eagle_smoke_strike
-eagle_110mm_rocket_pods
-eagle_500kg_bomb
-orbital_gatling_barrage
-orbital_airburst_strike
-orbital_120mm_he_barrage
-orbital_380mm_he_barrage
-orbital_walking_barrage
-orbital_lasers
-orbital_railcannon_strike
-machine_gun
-anti-material_rifle
-stalwart
-expendable_anti-tank
-recoiled_rifle
-flamethrower
-autocannon
-railgun
-spear
-sos_beacon
-resupply
-hellbomb
-reinforce
+    //general
+    reinforce
+    resupply
+    sos_beacon
+    seaf_artillery
+    hellbomb
+    prospecting_drill
+    super_earth_flag
+    //patriotic administration center
+    machine_gun
+    anti-material_rifle
+    stalwart
+    expendable_anti-tank
+    recoiled_rifle
+    flamethrower
+    autocannon
+    railgun
+    spear
+    //orbital cannons
+    orbital_gatling_barrage
+    orbital_airburst_strike
+    orbital_120mm_he_barrage
+    orbital_380mm_he_barrage
+    orbital_walking_barrage
+    orbital_lasers
+    orbital_railcannon_strike
+    //hanger
+    eagle_strafing_run
+    eagle_airstrike
+    eagle_cluster_bomb
+    eagle_napalm_airstrike
+    jump_pack
+    eagle_smoke_strike
+    eagle_110mm_rocket_pods
+    eagle_500kg_bomb
+    eagle_rearm
+    //bridge
+    orbital_precision_strike
+    orbital_gas_strike
+    orbital_ems_strike
+    orbital_smoke_strike
+    hmg_emplacement
+    shield_generation_relay
+    tesla_tower
+    //engineering bay
+    anti-personnel_minefield
+    supply_pack
+    grenade_launcher
+    laser_cannon
+    incendiary_mines
+    guard_dog_rover
+    ballistic_shield_backpack
+    arc_thrower
+    shield_generator_pack
+    //robotic workshop
+    machine_gun_sentry
+    gatling_sentry
+    mortar_sentry
+    guard_dog
+    autocannon_sentry
+    rocket_sentry
+    ems_mortar_sentry
+    patriot_exosuit
 ```
