@@ -98,6 +98,11 @@ match command {
     "hellbomb" => "swaswdsw",
     "prospecting_drill" => "ssadss",
     "super_earth_flag" => "swsw",
+    "patriot_exosuit" => "asdwass",
+    "seaf_artillery" => "dwws",
+    "upload_data" => "adwww",
+    "seismic_probe" => "wwaass",
+    "orbital_illumination_flare" => "ddaa",
     _ => "", //returns blank if not so no keys will be pressed
 }
 }
